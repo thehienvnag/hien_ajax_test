@@ -3,6 +3,8 @@ $(document).ready(function() {
 
   layDanhSachNguoiDung();
 
+  function test() {}
+
   function layDanhSachNguoiDung() {
     danhSachNguoiDung
       .layDanhSachNguoiDung()
@@ -107,15 +109,22 @@ $(document).ready(function() {
   $("body").delegate("#btnCapNhat", "click", function() {
     //Viết cập nhật dùng
     //Lấy thông tin từ 6 ô input
-    
-    var taiKhoan = $('#TaiKhoan').val();
+
+    var taiKhoan = $("#TaiKhoan").val();
     var hoTen = $("#HoTen").val();
     var matKhau = $("#MatKhau").val();
     var email = $("#Email").val();
     var soDT = $("#SoDienThoai").val();
     var loaiNguoiDung = $("#loaiNguoiDung").val();
 
-    var nguoiDung = new NguoiDung(taiKhoan, hoTen, matKhau, email, soDT, loaiNguoiDung);
+    var nguoiDung = new NguoiDung(
+      taiKhoan,
+      hoTen,
+      matKhau,
+      email,
+      soDT,
+      loaiNguoiDung
+    );
 
     danhSachNguoiDung.capNhatNguoiDung(nguoiDung);
   });
