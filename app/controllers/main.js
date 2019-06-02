@@ -6,11 +6,8 @@ $(document).ready(function() {
   function test() {}
   function newBranch() {}
   function search() {
-<<<<<<< HEAD
     console.log("aloooo");
-=======
     console.log("alods");
->>>>>>> HienHT
   }
 
   function layDanhSachNguoiDung() {

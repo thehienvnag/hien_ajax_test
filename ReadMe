@@ -4,3 +4,5 @@ git branch
 git checkout <branch name>
 git push origin <branch name>
 git merge master -> merge từ thằng đc gọi tới chỗ đang đứng
+
+Mỗi ngày: vô branch master -> pull về rồi merge qua branch của mình.
