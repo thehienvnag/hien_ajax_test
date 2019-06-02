@@ -5,7 +5,9 @@ $(document).ready(function() {
 
   function test() {}
   function newBranch() {}
-  function search() {}
+  function search() {
+    console.log("alods");
+  }
 
   function layDanhSachNguoiDung() {
     danhSachNguoiDung
