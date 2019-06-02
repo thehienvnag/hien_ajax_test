@@ -4,6 +4,7 @@ $(document).ready(function() {
   layDanhSachNguoiDung();
 
   function test() {}
+  function newBranch() {}
 
   function layDanhSachNguoiDung() {
     danhSachNguoiDung
