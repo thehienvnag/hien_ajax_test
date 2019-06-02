@@ -5,6 +5,7 @@ $(document).ready(function() {
 
   function test() {}
   function newBranch() {}
+  function search() {}
 
   function layDanhSachNguoiDung() {
     danhSachNguoiDung
