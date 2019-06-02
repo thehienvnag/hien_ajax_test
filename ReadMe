@@ -1,1 +1,4 @@
 Setup git repository
+
+git branch
+git checkout <branch name>
